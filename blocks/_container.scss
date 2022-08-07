@@ -1,0 +1,29 @@
+
+.container{
+    width: 1100px !important;
+    margin: 0 auto;
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.btns{
+    box-sizing: content-box;
+    padding: 14px 39px;
+    background: $yellow;
+    border: 3px solid $yellow;
+    color:#fff;
+    transition: all .2s ease-in-out;
+    &:hover{
+        background: transparent;
+        color: $yellow;
+
+    }
+    &:active{
+        opacity: .5;
+    }
+}

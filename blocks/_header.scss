@@ -1,0 +1,43 @@
+.header {
+    width: 1440px;
+    margin: 0 auto;
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    @extend %flex-between;
+}
+
+.header {
+    width: 100%;
+}
+
+.nav-left {
+    display: flex;
+
+    ul {
+        @extend %flex-center;
+        margin: 0;
+        margin-left: 58px;
+        gap: 32px;
+
+        a {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            color: $dim-grey;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                color: $yellow;
+
+            }
+        }
+    }
+}
+
+.logo {
+    width: 107px;
+}

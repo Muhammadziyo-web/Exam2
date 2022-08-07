@@ -1,0 +1,99 @@
+
+.app {
+    width: 1440px;
+    height: 300px;
+    background: #495567;
+    margin: 0 auto;
+    @extend %flex-center;
+    position: relative;
+    overflow: hidden;
+
+    &__wrapper {
+        @extend %flex-center;
+        gap: 18px;
+
+        img {
+            cursor: pointer;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
+
+    h1 {
+        width: 415px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+    }
+}
+
+.wrappp {
+    @extend %flex-between;
+
+    .sign-up {
+        width: 430px;
+        height: 100px;
+        overflow: hidden;
+    }
+}
+
+.cicrle {
+    width: 347px;
+    height: 347px;
+    border: 15px solid #E5ECF4;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.cicrle1 {
+    // left: 450px;
+    // top: 150px;
+    right: 643px;
+    top: 150px;
+
+}
+
+.cicrle2 {
+    // left: 853px;
+    // top: 150px;
+    right: 240px;
+    top: 150px;
+}
+
+.cicrle3 {
+    background: #E5ECF4;
+    // left: 1256px;
+    // top: 150px;
+    top: 150px;
+    right: -163px;
+
+}
+
+footer {
+    background: #333A44;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.icons {
+    gap: 34px;
+
+    i {
+        font-size: 30px;
+        cursor: pointer;
+        color: $yellow;
+
+        &:hover {
+            color: #fff
+        }
+
+        &:active {
+            color: rgb(121, 72, 72)
+        }
+    }
+}

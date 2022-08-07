@@ -1,0 +1,16 @@
+$yellow: #FCB72B;
+$dark-navy:#495567;
+$dim-grey:#939CAA;
+$light-grey:#E5ECF4;
+$snow: #F2F5F9;
+$light-yellow: #FFF4DF;
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
